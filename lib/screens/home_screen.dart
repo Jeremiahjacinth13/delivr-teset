@@ -103,8 +103,7 @@ class HomeScreen extends StatelessWidget {
                     subtitle: "tickets available",
                     number: 10),
                 Container(
-                  // color: kPrimaryColor,
-                  height: 387.0,
+                  height: 300.0,
                   child: ListView.separated(
                       itemBuilder: (BuildContext context, int index) =>
                           TicketItem(ticket: tickets[index]),
